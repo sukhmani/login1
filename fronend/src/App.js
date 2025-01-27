@@ -6,7 +6,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <h1>MERN Auth App</h1>
+      <h1> Auth </h1>
       <Login />
       <Register />
     </div>
