@@ -18,7 +18,7 @@ const Register = () => {
 
   return (
     <div className="register">
-      <h2>Register</h2>
+      <h2 style={{backgroundColor:'lightblue'}}>Register</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Username:</label>
@@ -32,7 +32,7 @@ const Register = () => {
           <label>Password:</label>
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
         </div>
-        <button type="submit">Register</button>
+        <button type="submit" style={{backgroundColor:'blue', color:'white'}}>Register</button>
       </form>
     </div>
   );

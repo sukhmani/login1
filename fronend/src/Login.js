@@ -17,7 +17,7 @@ const Login = () => {
 
   return (
     <div className="login">
-      <h2>Login</h2>
+      <h2 style={{backgroundColor:'lightblue'}}>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Username:</label>
@@ -27,7 +27,7 @@ const Login = () => {
           <label>Password:</label>
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
         </div>
-        <button type="submit">Login</button>
+        <button type="submit" style={{backgroundColor:'blue', color:'white'}}>Login</button>
       </form>
     </div>
   );
