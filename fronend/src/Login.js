@@ -9,9 +9,9 @@ const Login = () => {
     event.preventDefault();
     try {
       const data = await login(username, password);
-      console.log('Login successful:', data);
+
     } catch (error) {
-      console.error('Login failed:', error);
+
     }
   };
 
